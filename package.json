@@ -1,8 +1,23 @@
 {
+  "name": "janis.codes",
+  "version": "1.0.0",
+  "description": "My personal website built with Vuepress and Netlify CMS",
+  "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carnageous/janis.codes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Carnageous/janis.codes/issues"
+  },
+  "homepage": "https://github.com/Carnageous/janis.codes#readme",
   "devDependencies": {
     "vuepress": "^1.0.2"
   }
