@@ -5,8 +5,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
