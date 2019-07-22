@@ -7,3 +7,9 @@ categories:
   - Test
 ---
 As I said, only a text. You can leave now.
+
+`const abc = test`
+
+# Here is something!
+
+![TV screen](/../../smpte_color_bars.svg.png "An example image")
