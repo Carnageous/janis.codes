@@ -5,7 +5,8 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },
-      { text: "About", link: "/about/" }
+      { text: "About", link: "/about/" },
+      { text: "Imprint", link: "/imprint/" }
     ],
     serviceWorker: {
       updatePopup: true

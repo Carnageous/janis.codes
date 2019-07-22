@@ -11,7 +11,7 @@ features:
     details: I also build the backbones of my Websites using Node.js, Go or C++/C#
   - title: Data engineering
     details: As of 2016, I started working with large amounts of data coupled with modern web-technologies.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: This website was built with vuepress
 ---
 # How I code
 As most programmers do, I try to find the perfect mix of using modern technology and mastering things I know.
