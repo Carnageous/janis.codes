@@ -38,7 +38,7 @@ export default {
 
 .post img {
     grid-area: img;
-    width: 300px;
+    height: 100%;
 }
 
 .post h2 {
