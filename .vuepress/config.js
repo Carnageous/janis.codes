@@ -11,7 +11,25 @@ module.exports = {
     serviceWorker: {
       updatePopup: true
     },
-    repo: 'Carnageous/janis.codes',
-    repoLabel: 'Contribute!',
-  }
+    repo: "Carnageous/janis.codes",
+    repoLabel: "Contribute!"
+  },
+  plugins: [
+    [
+      "@vuepress/plugin-medium-zoom",
+      {
+        selector: ".theme-default-content img"
+      }
+    ],
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: {
+          message: "New content is available.",
+          buttonText: "Refresh"
+        }
+      }
+    ]
+  ]
 };
