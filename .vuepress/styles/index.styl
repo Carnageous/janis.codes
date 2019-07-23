@@ -12,6 +12,20 @@ body, html, #app
 .search-box .suggestion a
     color: $accentColor !important
     
+.search-box input
+    background: $backgroundColor url(/assets/img/search.83621669.svg) 0.6rem 0.5rem no-repeat !important;
+    color: $textColor !important;
+
 .navbar .links,
 .nav-links .repo-link
     background-color: $codeBgColor !important
+
+button 
+    background: $accentColor;
+    border: none;
+    color: $textColor;
+    font-size: 1.2em;
+    cursor: pointer;
+
+    &:hover
+        background-color: #da6b46;
